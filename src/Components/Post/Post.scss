@@ -1,0 +1,85 @@
+@import "../Variables/Variable.scss";
+
+.post {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  margin: 30px 0;
+
+  .postWrapper {
+    padding: 10px;
+
+    .postTop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .postTopLeft {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .postUsername {
+          font-size: 15px;
+          font-weight: 500;
+          margin: 0px 10px;
+        }
+        .postDate {
+          font-size: small;
+        }
+      }
+    }
+
+    .postCenter {
+      margin: 20px 0;
+
+      img {
+        margin-top: 20px;
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+      }
+    }
+
+    .postBottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .postBottomLeft {
+        display: flex;
+        align-items: center;
+        .like {
+          color: rgb(255, 41, 41);
+        }
+
+        .thumbsUp {
+          color: rgb(68, 112, 232);
+        }
+
+        svg {
+          margin-right: 5px;
+          cursor: pointer;
+        }
+
+        span {
+          font-size: 15px;
+        }
+      }
+
+      .postBottomRight {
+        span {
+          cursor: pointer;
+          border-bottom: 1px dashed gray;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

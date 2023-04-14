@@ -1,0 +1,65 @@
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile .profileRight {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.profile .profileRight .profileRightTop .profileCover {
+  height: 320px;
+  position: relative;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverImg {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile .profileRight .profileRightTop .profileCover .userImg {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.profile .profileRight .profileRightTop .profileInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .profileRight .profileRightTop .profileInfo h4 {
+  font-size: 24px;
+}
+
+.profile .profileRight .profileRightTop .profileInfo span {
+  font-weight: 300;
+}
+
+.profile .profileRight .profileRightBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=Profile.css.map */

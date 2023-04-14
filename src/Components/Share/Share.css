@@ -1,0 +1,107 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+          box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.share .shareWrapper {
+  padding: 10px;
+}
+
+.share .shareWrapper .shareTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.share .shareWrapper .shareTop img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.share .shareWrapper .shareTop input {
+  border: none;
+  width: 80%;
+  outline: none;
+}
+
+.share .shareWrapper hr {
+  margin: 20px;
+}
+
+.share .shareWrapper .shareBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.share .shareWrapper .shareBottom .shareOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption svg {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .tomato {
+  color: tomato;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .blue {
+  color: blue;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .green {
+  color: green;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .gold {
+  color: gold;
+}
+
+.share .shareWrapper .shareBottom button {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+}
+/*# sourceMappingURL=Share.css.map */

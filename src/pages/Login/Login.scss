@@ -1,0 +1,90 @@
+@import "../../Components/Variables/Variable.scss";
+
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: $white-b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+
+    .loginLeft,
+    .loginRight {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 20px;
+
+      h3 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #1775ee;
+        margin-bottom: 10px;
+      }
+
+      span {
+        font-size: 24px;
+      }
+    }
+
+    .loginRight {
+      .loginBox {
+        height: 450px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        input {
+          height: 50px;
+          border-radius: 10px;
+          border: 1px solid gray;
+          font-size: 18px;
+          padding-left: 20px;
+          outline: none;
+        }
+
+        .loginBtn {
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          background-color: #1775ee;
+          color: white;
+          font-size: 20px;
+          font-weight: 500;
+          cursor: pointer;
+
+          span {
+            color: white;
+          }
+        }
+
+        span {
+          text-align: center;
+          color: #1775ee;
+        }
+
+        .loginRegister {
+          width: 60%;
+          align-self: center;
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          background-color: #42b72a;
+          color: white;
+          font-size: 20px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

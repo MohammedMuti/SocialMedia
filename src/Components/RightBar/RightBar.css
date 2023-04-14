@@ -1,0 +1,163 @@
+.rightBar {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
+}
+
+.rightBar .rightBarWrapper {
+  padding: 20px 0;
+}
+
+.rightBar .rightBarWrapper .rightbarUserInformation {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightBar .rightBarWrapper button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #1872f2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rightBar .rightBarWrapper .rightBarInfo {
+  margin-bottom: 20px;
+}
+
+.rightBar .rightBarWrapper .rightBarInfo .rightBarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightBar .rightBarWrapper .rightBarInfo .rightBarInfoItem .key {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightBar .rightBarWrapper .rightBarInfo .rightBarInfoItem .value {
+  font-weight: 300;
+}
+
+.rightBar .rightBarWrapper .rightBarFollowings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.rightBar .rightBarWrapper .rightBarFollowings .rightBarFollowing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightBar .rightBarWrapper .rightBarFollowings .rightBarFollowing img {
+  width: 100px;
+  margin-bottom: 10px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.rightBar .rightBarWrapper .birthdayContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightBar .rightBarWrapper .birthdayContainer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rightBar .rightBarWrapper .birthdayContainer span {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightBar .rightBarWrapper .Ad {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightBar .rightBarWrapper h4 {
+  margin-bottom: 20px;
+}
+
+.rightBar .rightBarWrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightBar .rightBarWrapper ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.rightBar .rightBarWrapper ul li a .rightBarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightBar .rightBarWrapper ul li a .rightBarProfileImgContainer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rightBar .rightBarWrapper ul li a .rightBarProfileImgContainer span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightBar .rightBarWrapper ul li a .onlineFriend {
+  font-weight: 500;
+}
+/*# sourceMappingURL=RightBar.css.map */

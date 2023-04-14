@@ -1,0 +1,92 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sidebar {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebar .sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebar .sidebarWrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar .sidebarWrapper ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar .sidebarWrapper ul li svg {
+  margin-right: 15px;
+}
+
+.sidebar .sidebarWrapper button {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebar .sidebarWrapper hr {
+  margin: 20px 0;
+  color: gray;
+}
+
+.sidebar .sidebarWrapper .friendList ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar .sidebarWrapper .friendList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebar .sidebarWrapper .friendList li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Sidebar.css.map */
