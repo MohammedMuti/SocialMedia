@@ -28,6 +28,12 @@
   top: 50px;
 }
 
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar .sidebarWrapper {
   padding: 20px;
 }

@@ -4,4 +4,22 @@
   display: flex;
   width: 100%;
 }
+
+@media (max-width: 1000px) {
+  .home .rightBar {
+    display: none;
+  }
+  .home .feed {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .home .sidebar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

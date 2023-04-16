@@ -25,47 +25,48 @@ const Topbar = () => {
   return (
     <>
       <div className="topbar">
-        <div className="topLeft">
-          <Link to="/">
-            <div className="logo">Social</div>
-          </Link>
-        </div>
-        <div className="topCenter">
-          <div className="searchBar">
-            <Search />
-            <input placeholder="Search for friend, post or video" />
-          </div>
-        </div>
-        <div className="topRight">
-          <div className="topbarLinks">
+        <div className="topStart">
+          <div className="topLeft">
             <Link to="/">
-              <span>Homepage</span>
-            </Link>
-            <Link to="/">
-              <span>Timeline</span>
+              <div className="logo">Social</div>
             </Link>
           </div>
-          <div className="topbarIcons">
-            <div className="topbarIconItem">
-              <Person />
-              <span>1</span>
-            </div>
-            <div className="topbarIconItem">
-              <Chat />
-              <span>1</span>
-            </div>
-            <div className="topbarIconItem">
-              <Notifications />
-              <span>1</span>
+          <div className="topCenter">
+            <div className="searchBar">
+              <Search />
+              <input placeholder="Search for friend, post or video" />
             </div>
           </div>
-          <div className="userProfileLogout">
-            <Link to={`/profile/${currentUser.username}`}>
-              <img src={PF + currentUser?.profilePic + ".jpeg"} alt="" />
-            </Link>
-            <span onClick={handleLogout}>
-              Logout <Logout />
-            </span>
+        </div>
+        <div className="topEnd">
+          <div className="topRight">
+            <div className="topbarLinks">
+              <Link to="/">
+                <span>Homepage</span>
+              </Link>
+            </div>
+            <div className="topbarIcons">
+              <div className="topbarIconItem">
+                <Person />
+                <span>1</span>
+              </div>
+              <div className="topbarIconItem">
+                <Chat />
+                <span>1</span>
+              </div>
+              <div className="topbarIconItem">
+                <Notifications />
+                <span>1</span>
+              </div>
+            </div>
+            <div className="userProfileLogout">
+              <Link to={`/profile/${currentUser.username}`}>
+                <img src={PF + currentUser?.profilePic + ".jpeg"} alt="" />
+              </Link>
+              <span onClick={handleLogout}>
+                Logout <Logout />
+              </span>
+            </div>
           </div>
         </div>
       </div>
